@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warung Senja — Best Cooking Game</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; padding: 0; background: #292524; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: 'Trebuchet MS', 'Segoe UI', Verdana, sans-serif; }
+  .wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #FFFBEB; border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,0.5); }
+  .help { color: #D6D3D1; font-size: 13px; text-align: center; padding: 10px 0 0; line-height: 1.5; }
+  .help b { color: #FDE68A; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div class="help">
+    <b>WASD / panah</b> jalan &nbsp;•&nbsp; <b>E / klik</b> pakai stasiun &nbsp;•&nbsp; <b>P</b> jeda &nbsp;•&nbsp; <b>R</b> shift baru &nbsp;•&nbsp; <b>M</b> suara<br>
+    Ambil bahan dari peti → olah di talenan / wajan / fryer / rice cooker / minuman → rakit di meja plating → sajikan di jendela saji. Jangan sampai gosong, cuci piring kotor di sink!
+  </div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

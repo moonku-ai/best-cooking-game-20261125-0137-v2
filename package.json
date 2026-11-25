@@ -1,0 +1,1 @@
+{"description":"Warung Senja v2 — an original top-down cooking game for make.fun's best-cooking-game bounty.","name":"warung-senja-v2","private":true,"scripts":{"serve":"node serve.ts","test":"node --test tests/*.test.mjs"},"type":"module","version":"2.0.0"}
